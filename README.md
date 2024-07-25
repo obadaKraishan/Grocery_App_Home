@@ -12,13 +12,13 @@ A Flutter home screen for a grocery shopping app with a user-friendly and intuit
 ## 📸 Screenshots
 <p>
 <img src="assets/screenshot.gif" width="300">
-<img src="assets/home.png" width="300">
+<img src="assets/product-details.png" width="300">
 </p>
 
 ## 🛠️ Technologies Used
 - **Frontend**: Flutter, Dart
 - **State Management**: StatefulWidget
-- **Plugins**: google_fonts, salomon_bottom_bar, carousel_slider, flutter_advanced_drawer, provider
+- **Plugins**: material_symbols_icons, stylish_bottom_bar, animated_icon_button, convex_bottom_bar, google_fonts, modal_bottom_sheet
 
 ## 📝 Setup Instructions
 Follow these steps to set up the project locally:
@@ -26,7 +26,7 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/obadaKraishan/Grocery_App_Home.git
-cd Grocery_Store_Home
+cd Grocery_App_Home
 ```
 
 ### 2. Install Dependencies
@@ -43,15 +43,16 @@ flutter run
 ```plaintext
 lib/
 ├── main.dart
+├── models/
+│   ├── grocery_item.dart
 ├── screens/
 │   ├── home_screen.dart
-│   ├── profile_screen.dart
-│   ├── search_screen.dart
+│   ├── product_details_screen.dart
 ├── widgets/
-│   ├── carousel_slider_widget.dart
-│   ├── popular_items_widget.dart
-│   ├── drawer_menu_widget.dart
-└── theme.dart
+│   ├── category_slider.dart
+│   ├── discount_banner.dart
+│   ├── grocery_item.dart
+└
 ```
 
 ## 🎨 Customization
