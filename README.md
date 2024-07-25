@@ -12,7 +12,7 @@ A Flutter home screen for a grocery shopping app with a user-friendly and intuit
 ## 📸 Screenshots
 <p>
 <img src="assets/screenshot.gif" width="300">
-<img src="assets/home.png" width="300">
+<img src="assets/detail-details" width="300">
 </p>
 
 ## 🛠️ Technologies Used
