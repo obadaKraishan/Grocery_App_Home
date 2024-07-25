@@ -80,21 +80,21 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                         children: [
                           Row(
                             children: [
-                              Icon(Icons.star, color: Colors.green),
+                              Icon(Icons.star, color: Color(0xFF82b479)),
                               Text('${widget.rating} (${widget.reviews} reviews)'),
                             ],
                           ),
                           SizedBox(width: 40),
                           Row(
                             children: [
-                              Icon(Icons.access_time, color: Colors.green),
+                              Icon(Icons.access_time, color: Color(0xFF82b479)),
                               Text('${widget.deliveryTime} min'),
                             ],
                           ),
                           SizedBox(width: 40),
                           Row(
                             children: [
-                              Icon(Icons.local_fire_department, color: Colors.green),
+                              Icon(Icons.local_fire_department, color: Color(0xFF82b479)),
                               Text('${widget.calories} kcal'),
                             ],
                           ),
@@ -105,7 +105,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                         children: [
                           Container(
                             decoration: BoxDecoration(
-                              color: Colors.green,
+                              color: Color(0xFF82b479),
                               borderRadius: BorderRadius.circular(8),
                             ),
                             child: IconButton(
@@ -118,7 +118,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                           SizedBox(width: 8),
                           Container(
                             decoration: BoxDecoration(
-                              color: Colors.green,
+                              color: Color(0xFF82b479),
                               borderRadius: BorderRadius.circular(8),
                             ),
                             child: IconButton(
@@ -146,7 +146,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                             ),
                           );
                         },
-                        child: Text('Read more', style: TextStyle(color: Colors.green)),
+                        child: Text('Read more', style: TextStyle(color: Color(0xFF82b479))),
                       ),
                     ],
                   ),
@@ -160,14 +160,14 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                 child: Material(
                   color: Colors.white, // Button color
                   child: InkWell(
-                    splashColor: Colors.green, // Splash color
+                    splashColor: Color(0xFF82b479), // Splash color
                     onTap: () {
                       Navigator.pop(context);
                     },
                     child: SizedBox(
                       width: 56,
                       height: 56,
-                      child: Icon(Icons.arrow_back, color: Colors.green),
+                      child: Icon(Icons.arrow_back, color: Color(0xFF82b479)),
                     ),
                   ),
                 ),
@@ -178,7 +178,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
               right: 16,
               child: ClipOval(
                 child: Material(
-                  color: Colors.green, // Button color
+                  color: Color(0xFF82b479), // Button color
                   child: InkWell(
                     splashColor: Colors.white, // Splash color
                     onTap: () {
@@ -203,7 +203,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                     height: 56,
                     padding: EdgeInsets.symmetric(horizontal: 16),
                     decoration: BoxDecoration(
-                      color: Colors.green,
+                      color: Color(0xFF82b479),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Center(
@@ -222,7 +222,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                           // Add to cart
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.green,
+                          backgroundColor: Color(0xFF82b479),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8),
                           ),
